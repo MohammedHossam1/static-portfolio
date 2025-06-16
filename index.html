@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hossam | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="./style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body class="scroll-smooth  bg-black !animated-bg text-gray-100">
+  <!-- Navbar -->
+  <header id="navbar" class=" bg-body fixed top-0 h-16   z-50 inset-x-0   border-b border-gray-700">
+    <div class="w-11/12 mx-auto flex items-center justify-between h-full">
+      <div class="flex gap-4 items-center">
+        <!-- <img src="./assets/hema.jpeg" alt="logo" class="rounded-full border-gray-700 size-12 object-cover max-lg:hidden" /> -->
+        <h1 class="text-2xl active:text-secondary font-bold uppercase first-letter:text-4xl letter-text-color ">Hema </h1>
+      </div>
+      <nav class="space-x-2 lg:space-x-6 flex font-medium">
+        <a href="#services" class="nav-link custom-hover-text ">Services</a>
+        <a href="#books" class="nav-link custom-hover-text ">Books</a>
+        <a href="#projects" class="nav-link custom-hover-text ">Projects</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="flex max-lg:flex-col p-1 lg:mx-auto gap-2 lg:gap-6 max-lg:!mt-[4.5rem] ">
+    <!--   Sidebar -->
+    <section
+      class=" bg-black text-white w-full lg:w-1/4 lg:fixed  bottom-0 lg:flex items-center justify-center lg:h-[calc(100vh-4.5rem)] lg:pe-5 z-20 py-3 ">
+      <div class="bg-body  h-full  border border-secondary lg:border-l-0">
+        <div class="   p-6  flex flex-col md:flex-row lg:flex-col items-center gap-4   space-y-4 ">
+          <!-- Image -->
+          <div class="overflow-hidden w-full md:w-1/2 lg:w-full">
+            <img src="./assets/hema.jpeg" alt="Hossam"
+              class="w-full h-[14rem]   object-cover    border-2 border-secondary ">
+          </div>
+          <!-- Description -->
+          <div class="flex flex-col items-center   space-y-4">
+
+            <p class="text-white text-start w-full text-xl font-medium ">I'm <span class="text-main">Hema 3azema</span>
+              , a Back-End Developer</p>
+            <p class="text-white text-base lg:text-xl leading-7 ">Building APIs, databases, and scalable back-end systems with
+              Node.js,
+              Prisma, and MySQL.</p>
+            <!-- Social Media -->
+            <div class="flex justify-between gap-4  mt-6 text-xl text-white">
+              <a href="mailto:hossam@example.com"
+                class="custom-hover-text border-white border rounded-full size-12 custom-hover-border  flex items-center justify-center"><i
+                  class="fas fa-envelope"></i></a>
+              <a href="https://github.com/hossam" target="_blank"
+                class="custom-hover-text border-white border rounded-full size-12 custom-hover-border  flex items-center justify-center"><i
+                  class="fab fa-github"></i></a>
+              <a href="https://linkedin.com/in/hossam" target="_blank"
+                class="custom-hover-text border-white border rounded-full size-12 custom-hover-border  flex items-center justify-center"><i
+                  class="fab fa-linkedin"></i></a>
+              <a href="https://twitter.com/hossam" target="_blank"
+                class="custom-hover-text border-white border rounded-full size-12 custom-hover-border  flex items-center justify-center"><i
+                  class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Content  -->
+    <div class=" relative w-full lg:w-3/4 ms-auto  lg:!mt-[4.7rem] overflow-hidden lg:p-1 lg:pr-0 ">
+      <main class=" space-y-2 lg:space-y-6 mb-6 animated-bg   ">
+        <!-- Services -->
+        <section id="services" class="reveal bg-body  lg:py-16 p-5 border border-r-0 border-secondary ">
+          <h2 class="text-2xl lg:text-4xl font-bold text-start lg:ms-10 tracking-widest underline-animate show">Services</h2>
+          <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-4 lg:gap-8 mt-5 lg:mt-10">
+            <!-- sev 1 -->
+            <div class=" bg-card border custom-hover-border  cursor-pointer">
+              <img src="./assets/img1.png" alt="مشروع 1" class="w-full h-48 object-cover  mb-4" />
+              <div class="px-4 py-2">
+                <h3 class="text-xl font-semibold mb-2 ball-before">UI/UX Design</h3>
+                <p class="line-clamp-1">Modern, intuitive, and responsive designs.</p>
+              </div>
+            </div>
+            <!-- sev 2 -->
+
+            <div class="  bg-card border custom-hover-border  cursor-pointer">
+              <img src="./assets/img1.png" alt="مشروع 2" class="w-full h-48 object-cover  mb-4" />
+              <div class="px-4 py-2">
+                <h3 class="text-xl font-semibold mb-2 ball-before">Development</h3>
+                <p class="line-clamp-1">Fast, scalable, and pixel-perfect websites.</p>
+              </div>
+            </div>
+            <!-- sev 3 -->
+
+            <div class="  bg-card border custom-hover-border  cursor-pointer">
+              <img src="./assets/img1.png" alt="مشروع 3" class="w-full h-48 object-cover  mb-4" />
+              <div class="px-4 py-2">
+                <h3 class="text-xl font-semibold mb-2 ball-before">SEO & Performance</h3>
+                <p class="line-clamp-1">Optimized for speed and visibility.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Books -->
+        <section id="books" class="reveal  bg-body  lg:py-16  p-5 border border-r-0 border-secondary">
+          <h2 class="text-2xl lg:text-4xl font-bold text-start lg:ms-10 tracking-widest underline-animate show"> Books</h2>
+          <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-4 lg:gap-8 mt-5 lg:mt-10 ">
+            <!-- book 1 -->
+            <div class=" bg-card text-white shadow-xl  overflow-hidden   custom-hover-border">
+              <img src="./assets/img1.png" alt="مشروع 1" class="w-full h-48 object-cover" />
+              <div class="p-4 ">
+                <p class="ball-before"> <strong>Clean Code</strong> by Robert C. Martin</p>
+              </div>
+            </div>
+            <!-- book 2 -->
+            <div class=" bg-card text-whiteshadow-xl  overflow-hidden custom-hover-border">
+              <img src="./assets/img1.png" alt="مشروع 2" class="w-full h-48 object-cover" />
+              <div class="p-4 ">
+                <p class="ball-before"> <strong>You Don’t Know JS</strong> by Kyle Simpson</p>
+              </div>
+            </div>
+            <!-- book 3 -->
+            <div class=" bg-card text-whiteshadow-xl  overflow-hidden custom-hover-border">
+              <img src="./assets/img1.png" alt="مشروع 3" class="w-full h-48 object-cover" />
+              <div class="p-4 ">
+                <p class="ball-before"><strong>The Pragmatic Programmer</strong> by Hunt & Thomas</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="reveal  bg-body  lg:py-16  p-5 border border-r-0 border-secondary">
+          <div>
+            <h2 class="text-2xl lg:text-4xl font-bold text-start lg:ms-10 tracking-widest underline-animate show">Projects</h2>
+            <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-4 lg:gap-8  mt-5 lg:mt-10">
+              <!-- project 1 -->
+              <div class="bg-card text-white custom-hover-border   group">
+                <div class="overflow-hidden w-full ">
+                  <img src="./assets/img1.png" alt="مشروع 1" class="w-full h-48 object-cover      " />
+                </div>
+                <div class=" p-4">
+                  <h3 class="text-xl font-semibold mb-2 ball-before">E-Commerce Project</h3>
+                  <p class="mb-4">Build an awesome e-commerce site</p>
+                  <a href="" class="bg-secondary text-white px-6 py-2  custom-hover-bg custom-hover-border">Read
+                    more</a>
+                </div>
+              </div>
+              <!-- project 2 -->
+              <div class="bg-card text-white custom-hover-border   group">
+                <div class="overflow-hidden w-full ">
+                  <img src="./assets/img1.png" alt="مشروع 1" class="w-full h-48 object-cover      " />
+                </div>
+                <div class=" p-4">
+                  <h3 class="text-xl font-semibold mb-2 ball-before">E-Commerce Project</h3>
+                  <p class="mb-4">Build an awesome e-commerce site</p>
+                  <a href="" class="bg-secondary text-white px-6 py-2  custom-hover-bg custom-hover-border">Read
+                    more</a>
+                </div>
+              </div>
+              <!-- project 3 -->
+              <div class="bg-card text-white custom-hover-border   group">
+                <div class="overflow-hidden w-full ">
+                  <img src="./assets/img1.png" alt="مشروع 1" class="w-full h-48 object-cover      " />
+                </div>
+                <div class=" p-4">
+                  <h3 class="text-xl font-semibold mb-2 ball-before">E-Commerce Project</h3>
+                  <p class="mb-4">Build an awesome e-commerce site</p>
+                  <a href="" class="bg-secondary text-white px-6 py-2  custom-hover-bg custom-hover-border">Read
+                    more</a>
+                </div>
+              </div>
+              <!-- project 4 -->
+              <div class="bg-card text-white custom-hover-border   group">
+                <div class="overflow-hidden w-full ">
+                  <img src="./assets/img1.png" alt="مشروع 1" class="w-full h-48 object-cover      " />
+                </div>
+                <div class=" p-4">
+                  <h3 class="text-xl font-semibold mb-2 ball-before">E-Commerce Project</h3>
+                  <p class="mb-4">Build an awesome e-commerce site</p>
+                  <a href="" class="bg-secondary text-white px-6 py-2  custom-hover-bg custom-hover-border">Read
+                    more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </main>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer
+    class="bg-body  xl:w-3/4 ms-auto text-white text-center py-6 border border-r-0 border-b-0 border-secondary p-1">
+    <p class="text-sm">&copy; 2025 MHossam. Built with 💜 </p>
+  </footer>
+
+  <!-- JavaScript for scroll reveal & active nav link -->
+  <script>
+    const revealElements = document.querySelectorAll('.reveal');
+    const navLinks = document.querySelectorAll('.nav-link');
+
+    function revealOnScroll() {
+      const windowHeight = window.innerHeight;
+      revealElements.forEach(el => {
+        const elementTop = el.getBoundingClientRect().top;
+        if (elementTop < windowHeight - 100) {
+          el.classList.add('active');
+        }
+      });
+    }
+
+    function setActiveNavLink() {
+      const scrollPos = window.scrollY;
+      navLinks.forEach(link => {
+        const section = document.querySelector(link.getAttribute('href'));
+        if (section.offsetTop - 100 <= scrollPos && section.offsetTop + section.offsetHeight - 100 > scrollPos) {
+          navLinks.forEach(l => l.classList.remove('active-link'));
+          link.classList.add('active-link');
+        }
+      });
+    }
+
+    window.addEventListener('scroll', () => {
+      revealOnScroll();
+      setActiveNavLink();
+
+      const navbar = document.getElementById('navbar');
+      if (window.scrollY > 50) {
+        navbar.classList.add('shadow-xl');
+      } else {
+        navbar.classList.remove('shadow-xl');
+      }
+    });
+
+    window.addEventListener('load', () => {
+      revealOnScroll();
+      setActiveNavLink();
+    });
+  </script>
+</body>
+
+</html>
